@@ -1,0 +1,28 @@
+# Build outputs
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.iml
+
+# Documentation
+*.md
+screenshot/
+
+# Test files
+test/
+
+# Git
+.git/
+.gitignore
+
+# Misc
+.DS_Store
+*.log
+

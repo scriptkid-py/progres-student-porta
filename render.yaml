@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: progres-student-portal
+    env: docker
+    dockerfilePath: ./Dockerfile
+    region: oregon
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 80
+
