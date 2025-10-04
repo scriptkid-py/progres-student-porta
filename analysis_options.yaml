@@ -1,0 +1,10 @@
+analyzer:
+  exclude:
+    - "**/*.env"
+    - "**/*.env.test"
+    - "**/*.env.*"
+
+linter:
+
+  rules:
+    constant_identifier_names: ignore
